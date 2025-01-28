@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GET Data</title>
+</head>
+<body>
+    <h1>Полученные данные</h1>
+    <ul>
+        {% for post in data %}
+            <li>{{ post.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
